@@ -2961,7 +2961,7 @@ var toReturn = {
 			radLocked: false
 		},
 		Bait: {
-			level: 0,
+			level: 10,
 			modifier: 1,
 			priceBase: 4,
 			heliumSpent: 0,
