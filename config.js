@@ -2949,12 +2949,12 @@ var toReturn = {
 			tooltip: "Use your new-found leadership skills in order to increase the minimum damage your Trimps deal by 2% per level. Stacks up to 10 times, doesn't affect max damage. At 10 levels, you will get a minimum of 100% benefit from all attack damage per strike.",
 		},
 		Agility: {
-			level: 0,
+			level: 10,
 			modifier: 0.05,
 			priceBase: 4,
 			heliumSpent: 0,
 			tooltip: "Crank your portal into overdrive, increasing the clock speed of the Universe. Each level reduces the time between Trimp and Bad Guy attacks by 5% <b>of the current time (compounds)</b>. <b>Maximum of 20 levels.</b>",
-			max: 20,
+			max: 200,
 			radLevel: 0,
 			radSpent: 0,
 			locked: false,
@@ -2973,7 +2973,7 @@ var toReturn = {
 		},
 		Trumps: {
 		//fiveTrimpMax worldUnlock
-			level: 0,
+			level: 10,
 			modifier: 1,
 			priceBase: 3,
 			heliumSpent: 0,
@@ -2985,7 +2985,7 @@ var toReturn = {
 		},
 		//breed main
 		Pheromones: {
-			level: 0,
+			level: 10,
 			modifier: 0.1,
 			priceBase: 3,
 			heliumSpent: 0,
@@ -3001,7 +3001,7 @@ var toReturn = {
 			heliumSpent: 0,
 			tooltip: "Study the ancient, secret Trimp methods of hoarding. Each level increases the amount of stuff you can shove in each Barn, Shed, and Forge by 20%.",
 			priceBase: 3,
-			level: 0,
+			level: 10,
 			radLevel: 0,
 			radSpent: 0,
 			locked: false,
@@ -3014,7 +3014,7 @@ var toReturn = {
 			heliumSpent: 0,
 			tooltip: "Practice public speaking with your Trimps. Each level increases the amount of resources that workers produce by 5%.",
 			priceBase: 2,
-			level: 0,
+			level: 10,
 			radLevel: 0,
 			radSpent: 0,
 			locked: false,
@@ -3022,7 +3022,7 @@ var toReturn = {
 		},
 		//startFight main
 		Power: {
-			level: 0,
+			level: 10,
 			modifier: 0.05,
 			priceBase: 1,
 			heliumSpent: 0,
@@ -3038,7 +3038,7 @@ var toReturn = {
 			priceBase: 1,
 			heliumSpent: 0,
 			tooltip: "Pay your Trimps to knock you around a little bit. By learning to not be such a wuss, your Trimps will be less wussy as well. Adds 5% health permanently to your Trimps.",
-			level: 0,
+			level: 10,
 			radLevel: 0,
 			radSpent: 0,
 			locked: false,
@@ -3050,7 +3050,7 @@ var toReturn = {
 			priceBase: 1,
 			heliumSpent: 0,
 			get tooltip(){return "Walk back through the empty Zones, learning how to milk them for every last drop. Each level permanently increases the amount of resources gained from battle (Including " + heliumOrRadon(false, true) + ") by 5%."},
-			level: 0,
+			level: 10,
 			radLevel: 0,
 			radSpent: 0,
 			locked: false,
@@ -8240,8 +8240,8 @@ var toReturn = {
 			max: -1
 		},
 		helium: {
-			owned: 0,
-			max: -1
+			owned: 1000,
+			max: 1000
 		},
 		radon: {
 			owned: 0,
