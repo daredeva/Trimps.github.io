@@ -8172,11 +8172,11 @@ var toReturn = {
 
 	resources: {
 		food: {
-			owned: 500,
+			owned: 300,
 			max: 500
 		},
 		wood: {
-			owned: 500,
+			owned: 300,
 			max: 500
 		},
 		metal: {
