@@ -8163,7 +8163,7 @@ var toReturn = {
 	badGuyDeathTexts: ["slew", "killed", "destroyed", "extinguished", "liquidated", "vaporized", "demolished", "ruined", "wrecked", "obliterated"],
 
 	settings: {
-		speed: 10,
+		speed: 200,
 		speedTemp: 0,
 		slowdown: false,
                 ewma_alpha: 0.05,
@@ -8172,11 +8172,11 @@ var toReturn = {
 
 	resources: {
 		food: {
-			owned: 0,
+			owned: 500,
 			max: 500
 		},
 		wood: {
-			owned: 0,
+			owned: 500,
 			max: 500
 		},
 		metal: {
