@@ -86,7 +86,7 @@ var toReturn = {
 		kongBonusMode: false,
 		canRespecPerks: true,
 		respecActive: false,
-		heliumLeftover: 0,
+		heliumLeftover: 1000,
 		viewingUpgrades: false,
 		totalPortals: 0,
 		totalRadPortals: 0,
