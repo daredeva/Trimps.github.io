@@ -2915,7 +2915,7 @@ var toReturn = {
 			scalingCount: 0
 		},
 		Carpentry: {
-			level: 0,
+			level: 10,
 			locked: true,
 			radLocked: true,
 			radLevel: 0,
